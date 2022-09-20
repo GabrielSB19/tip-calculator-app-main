@@ -1,1 +1,40 @@
+@use 'variables';
 @use 'initial';
+@use 'mixins';
+
+.header{
+    &__title{
+        text-align: center;
+        color: variables.$DarkGrayishCyan;
+        font-size: 1em;
+        margin: 30px 0;
+        letter-spacing: 8px;
+    }
+}
+
+.calculator-container{
+    background-color: variables.$White;
+    width: 375px;
+    margin: auto;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.inputs-section{
+    &__bill-label{
+        @include mixins.label;
+    }
+    &__bill-input{
+        @include mixins.input('../images/icon-dollar.svg');
+    }
+
+
+
+
+    &__people-label{
+        @include mixins.label;
+    }
+    &__people-input{
+        @include mixins.input('../images/icon-dollar.svg');
+    }
+}
