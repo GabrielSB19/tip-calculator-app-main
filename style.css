@@ -1,3 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  background-color: hsl(185deg, 41%, 84%);
+  font-family: "Space Mono", monospace;
+  font-size: 24px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
 
 /*# sourceMappingURL=style.css.map */
