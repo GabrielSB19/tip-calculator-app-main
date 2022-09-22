@@ -14,6 +14,7 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin: 40px 0;
 }
 
 .attribution a {
@@ -201,6 +202,34 @@ body {
   font-size: 1.2em;
   color: hsl(172deg, 67%, 45%);
   text-align: right;
+}
+@media (min-width: 1440px) {
+  .header__title {
+    margin: 160px 0 90px;
+  }
+  .calculator-container {
+    width: 900px;
+    display: flex;
+    gap: 50px;
+  }
+  .inputs-section {
+    flex: 1;
+  }
+  .result-section {
+    flex: 1;
+  }
+  .btns {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .btns__button {
+    width: 120px;
+  }
+  .results__tip-value, .results__total-value {
+    font-size: 2em;
+  }
+  .results__total-value {
+    font-size: 2em;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

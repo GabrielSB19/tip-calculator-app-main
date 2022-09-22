@@ -121,3 +121,36 @@
     }
 }
 
+@media (min-width:1440px) {
+    .header{
+        &__title{
+            margin: 160px 0 90px;
+        }
+    }
+    .calculator-container{
+        width: 900px;
+        display: flex;
+        gap: 50px;    
+    }
+    .inputs-section{
+        flex: 1;
+    }
+    .result-section{
+        flex: 1;
+    }
+    .btns{
+        grid-template-columns: repeat(3, 1fr);
+        &__button{
+            width: 120px;
+        }
+    }
+    .results{
+        &__tip-value{
+            font-size: 2em;
+        }
+        &__total-value{
+            font-size: 2em;
+        }
+    }
+}
+
