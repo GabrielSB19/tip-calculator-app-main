@@ -156,9 +156,19 @@ body {
 .btns__button-custom::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
+.btns__button--selected {
+  background-color: hsl(172deg, 67%, 45%);
+  color: hsl(183deg, 100%, 15%);
+}
 
 .error {
   border: 1px solid rgb(164, 68, 68);
+}
+
+.alert {
+  color: rgb(164, 68, 68);
+  font-size: 0.6em;
+  margin-left: 30px;
 }
 
 .result-section {
@@ -229,6 +239,9 @@ body {
   }
   .results__total-value {
     font-size: 2em;
+  }
+  .alert {
+    margin-left: 110px;
   }
 }
 

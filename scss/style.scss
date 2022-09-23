@@ -63,10 +63,20 @@
         text-align: center;
         color: variables.$DarkGrayishCyan;
     }
+    &__button--selected{
+        background-color: variables.$StrongCyan;
+        color: variables.$VeryDarkCyan;
+    }
 }
 
 .error{
     border: 1px solid rgb(164, 68, 68);
+}
+
+.alert{
+    color: rgb(164, 68, 68);
+    font-size: 0.6em;
+    margin-left: 30px;
 }
 
 .result-section{
@@ -151,6 +161,9 @@
         &__total-value{
             font-size: 2em;
         }
+    }
+    .alert{
+        margin-left: 110px;
     }
 }
 
